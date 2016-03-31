@@ -1,0 +1,87 @@
+.modal-content {
+  border-radius: 0;
+  border: 3px solid rgba(155, 155, 155, 0.75) !important;
+  border: 3px solid #9b9b9b;
+}
+.interstitial .js-close {
+  font-size: 12px;
+  float: right;
+  margin: 0px -5px 0 0;
+  cursor: pointer;
+  color: black;
+  width: 90px;
+  height: 10px;
+  display: inline-block;
+  line-height: 0px;
+  text-decoration: none;
+  font-weight: lighter;
+  bottom: 7px;
+  position: relative;
+}
+.interstitial .js-close:before {
+  font-weight: lighter;
+  display: block;
+}
+.interstitial .js-close:focus {
+  outline: 1px dotted #aaa;
+  outline-offset: 3px;
+}
+.interstitial .modal-header {
+  padding: 5px 15px 0 15px;
+}
+.interstitial .modal-header--image {
+  display: inline-block;
+  margin-right: 2%;
+}
+#page-samsungpay .interstitial .modal-header--image {
+  vertical-align: top;
+}
+.interstitial .modal-header--image + div {
+  max-width: 37%;
+  margin-left: 2%;
+  padding-left: 4.5%;
+}
+#page-androidpay .interstitial .modal-header--image + div {
+  border-left: solid 1px grey;
+}
+.interstitial .modal-header .microsoft-logo {
+  max-width: 30%;
+  margin-left: 0;
+  padding-left: 0;
+}
+.interstitial .modal-header .boa-logo {
+  max-width: 125px;
+}
+.interstitial .modal-header .payment-logo {
+  width: auto;
+  height: auto;
+  max-height: 48px;
+}
+.interstitial .modal-header button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.interstitial .modal-body {
+  padding: 0 15px;
+}
+.interstitial .modal-body p {
+  font-size: 14px;
+  margin-bottom: auto;
+}
+.interstitial .modal-body h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.interstitial .modal-footer {
+  font-size: 1.2em;
+  padding: 5px 10px 5px 10px;
+}
+.interstitial .modal-footer .btn {
+  margin: 0 5px 5px 0 !important;
+  border: none;
+}
+.interstitial .modal-footer .btn-default {
+  color: #0052c2;
+  background-color: #ece6dd;
+}
